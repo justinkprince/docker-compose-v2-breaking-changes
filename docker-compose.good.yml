@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  good:
+    container_name: compose_v2_good
+    env_file:
+      - ./.env.good
+    build: .

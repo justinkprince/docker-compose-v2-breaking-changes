@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  bad:
+    container_name: compose_v2_bad
+    env_file:
+      - ./.env.bad
+    build: .
